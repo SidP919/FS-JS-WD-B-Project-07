@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-top: 16px;
+}
+
+.nav-items{
+    display: flex;
+    column-gap: 16%;
+    font-size: 24px;
+    justify-content: space-around;
+    align-self: center;
+    align-items: center;
+}
+
+h5.nav-item{
+    font-weight: lighter;
+}
+
+h5.active-item{
+    color:#fe5f36;
+    font-weight: bold;
+}
+
+.intro-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 12px;
+    padding-left: 24px;
+}
+.left-section{
+    width: 54%;
+    padding-top: 32px;
+}
+.md-text{
+    display: flex;
+    align-items: center;
+    column-gap: 2%;
+    font-size: xx-large;
+    font-weight: lighter;
+    padding: 24px 0px;
+}
+.lg-text{
+    font-size: 400%;
+    padding: 0px 0px 24px;
+}
+.sub-headlines{
+    font-size: 24px;
+    font-weight: lighter;
+    padding: 0px 56px 32px;
+    width: 80%;
+    display: inline-block;
+}
+.sub-headline{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    font-weight: lighter;
+    padding: 8px;
+    margin-top:16px;
+}
+.sub-headline img{
+    background-color: #fe5f36;
+    border: 1px solid #fe5f36;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.text{
+    color:#afafaf;
+    font-size: large;
+    padding: 24px 0px;
+}
+.action-btns{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 4%;
+}
+.action-btn{
+    background-color: #fe5f36;
+    color: #ffffff;
+    padding: 16px 24px;
+    border: 1px solid #fe5f36;
+    border-radius: 40px;
+    margin: 2px 24px 24px 24px;
+    font-size: x-large;
+}
+.right-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 48%;
+    position: relative;
+    right: 6%;
+}
+.headphone-div{
+    display: flex;
+    justify-content: center;
+}
+.discount{
+    /* align-self: flex-end; */
+    position: absolute;
+    left: 8%;
+    bottom: 34%;
+    width: 24%;
+}
+.discount-content{
+    position: absolute;
+    left: 8%;
+    bottom: 34%;
+    color: #ffffff;
+    width: 24%;
+    height: 24%;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    /* margin-right: 5%; */
+}
+.dot{
+    border-radius: 50%;
+    padding: 16px;
+    margin: 16px;
+}
+.yellow-dot{
+    background-color: #ffff00;
+}
+.tomato-dot{
+    background-color: #fe5e35;
+}
+.black-dot{
+    background-color: #000000;
+}
+.right-section .action-btn{
+    margin: 6% 0px 0px;
+}
