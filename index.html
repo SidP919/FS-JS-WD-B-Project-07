@@ -22,7 +22,7 @@
         <h5 class="nav-item">Price</h5>
         <h5 class="nav-item">About</h5>
       </div>
-      <img src="./images/actions.svg" alt="actions" />
+      <img src="./images/actions.svg" alt="actions" class="actions" />
     </nav>
     <div class="intro-section">
       <div class="left-section">
@@ -31,6 +31,20 @@
           <img src="./images/circles.svg" alt="circles" />
         </h3>
         <h1 class="lg-text">Wireless Headphone</h1>
+        <!-- Below headphone-div - For small screens only -->
+        <div class="headphone-div width-headphone mob-headphone">
+          <img src="./images/discount.svg" alt="discount" class="discount" width="100%"/>
+          <div class="discount-content">
+            <h4>Discount</h4>
+            <h1>50%</h1>
+          </div>
+          <img src="./images/headphones.jpg" alt="headphone" width="75%" height="75%"/>
+        </div>
+        <div class="dots big-hide">
+          <div class="dot yellow-dot"></div>
+          <div class="dot tomato-dot"></div>
+          <div class="dot black-dot"></div>
+        </div>
         <div class="sub-headlines">
           <h5 class="sub-headline">
             <img src="./images/plus.svg" alt="plus" /> Clear Sound
@@ -41,6 +55,9 @@
           <h5 class="sub-headline">
             <img src="./images/plus.svg" alt="plus" /> Up To 11 Hours Playtime
           </h5>
+        </div>
+        <div class="action-btn-div">
+          <button class="action-btn big-hide">Add to chart</button>
         </div>
         <p class="text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -55,19 +72,19 @@
       </div>
       <div class="right-section">
         <div class="headphone-div">
-          <img src="./images/discount.svg" alt="discount" class="discount" width="100%"/>
-          <div class="discount-content">
+          <img src="./images/discount.svg" alt="discount" class="discount sm-hide" width="100%"/>
+          <div class="discount-content sm-hide">
             <h4>Discount</h4>
             <h1>50%</h1>
           </div>
-          <img src="./images/headphones.jpg" alt="headphone" width="75%" height="75%"/>
+          <img src="./images/headphones.jpg" alt="headphone" width="75%" height="75%" class="sm-hide"/>
         </div>
-        <div class="dots">
-          <div class="dot yellow-dot"></div>
-          <div class="dot tomato-dot"></div>
-          <div class="dot black-dot"></div>
+        <div class="dots sm-hide">
+          <div class="dot yellow-dot sm-hide"></div>
+          <div class="dot tomato-dot sm-hide"></div>
+          <div class="dot black-dot sm-hide"></div>
         </div>
-        <button class="action-btn">Add to chart</button>
+        <button class="action-btn sm-hide">Add to chart</button>
       </div>
     </div>
   </body>
